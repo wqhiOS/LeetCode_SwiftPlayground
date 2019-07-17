@@ -8,7 +8,7 @@ LeetCode刷题
 | 题号 | 难度 | 题目       |                             答案                             | 是否完成 |
 | :--: | :--: | ---------- | :----------------------------------------------------------: | :------: |
 |      |      |            |                                                              |          |
-| 141  | 简单 | 环形链表   | [Linked List Cycle]([https://github.com/wqhiOS/LeetCode_SwiftPlayground/blob/master/LeetCode_SwiftPlayground.playground/Pages/141_%E7%8E%AF%E8%A1%8C%E9%93%BE%E8%A1%A81.xcplaygroundpage/Contents.swift](https://github.com/wqhiOS/LeetCode_SwiftPlayground/blob/master/LeetCode_SwiftPlayground.playground/Pages/141_环行链表1.xcplaygroundpage/Contents.swift)) |    ✅     |
+| 141  | 简单 | 环形链表   | [Linked List Cycle](https://github.com/wqhiOS/LeetCode_SwiftPlayground/blob/master/LeetCode_SwiftPlayground.playground/Pages/141_环行链表1.xcplaygroundpage/Contents.swift) |    ✅     |
 | 206  | 简单 | 单链表反转 | [单链表反转](https://github.com/wqhiOS/LeetCode_SwiftPlayground/blob/master/LeetCode_SwiftPlayground.playground/Pages/206_单链表反转✅✋.xcplaygroundpage/Contents.swift) |    ✅     |
 |      |      |            |                                                              |          |
 |      |      |            |                                                              |          |
