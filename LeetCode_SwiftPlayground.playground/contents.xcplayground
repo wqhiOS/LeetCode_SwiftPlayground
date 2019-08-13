@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' display-mode='raw'/>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
+    <pages>
+        <page name='⭐️排序算法'/>
+        <page name='19_删除链表的倒数第N个节点'/>
+        <page name='21_合并两个有序链表'/>
+        <page name='141_环行链表1'/>
+        <page name='142_环形链表2'/>
+        <page name='206_单链表反转✅✋'/>
+        <page name='237_删除链表中的节点'/>
+        <page name='876_链表的中间节点'/>
+    </pages>
+</playground>
