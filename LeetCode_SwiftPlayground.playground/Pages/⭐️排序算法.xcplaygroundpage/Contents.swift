@@ -2,7 +2,7 @@
 
 import Foundation
 
-var array = [4,5,6,3,2,1,7]
+var array = [8,3,5,7,4,2,1,6]
 
 //bubble sort
 func bubbleSort(_ array: inout [Int]) {
@@ -25,39 +25,22 @@ func bubbleSort(_ array: inout [Int]) {
 func insertionSort(_ array: inout [Int]) {
     for i in 1..<array.count {
         let value = array[i]
-        for j in stride(from: i-1, to: -1, by: -1) {
+        // 查找插入的位置
+        var j = i-1
+        while j>=0 {
             if array[j] > value {
-
-                array[j+1] = array[j]
+                array[j+1] = array[j]//移动位置
             }else {
-                break
+                break//这里说明找到了
             }
-            
-            if j == 0 {
-                array[0] = value
-            }
+            j-=1
         }
-
+        //插入
+        array[j+1] = value
     }
-}
-func insertionSort2(_ arr:[Int]) -> [Int] {
-    if arr.count<=1 {return arr}
-    var sortedArr = arr
-    var tempInt:Int
-    for i in 0..<arr.count {
-        tempInt = sortedArr[i]
-        for j in stride(from: i, to: -1, by: -1){
-            if tempInt < sortedArr[j]{
-                sortedArr.remove(at: j + 1)
-                sortedArr.insert(tempInt, at: j)
-            }
-        }
-    }
-    return sortedArr
 }
 //test
 insertionSort(&array)
-
 
 
 
