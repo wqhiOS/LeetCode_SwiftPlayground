@@ -42,6 +42,18 @@ func insertionSort(_ array: inout [Int]) {
 //test
 insertionSort(&array)
 
+//selection sort
+func selectionSort(_ array: inout [Int]) {
+    for i in 1..<array.count {
+        
+    }
+}
+
+//merge sort
+func mergeSort(_ array: inout [Int]) {
+    
+}
+
 
 
 //: [Next](@next)
