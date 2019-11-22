@@ -9,5 +9,6 @@
         <page name='206_单链表反转✅✋'/>
         <page name='237_删除链表中的节点'/>
         <page name='876_链表的中间节点'/>
+        <page name='数据结构-二叉搜索树'/>
     </pages>
 </playground>
